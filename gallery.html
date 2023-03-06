@@ -10,23 +10,55 @@
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-light p-0">
+    <nav class="navbar sticky-top navbar-expand-lg bg-light p-0 shadow">
 		<div class="container">
 			<a class="navbar-brand" href="#">GOVPH</a>
-			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+				aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 			<div class="collapse navbar-collapse" id="navbarNav">
 				<ul class="navbar-nav">
 					<li class="nav-item">
-						<a class="nav-link p-3" href="index.html">Home</a>
+						<a class="nav-link active p-3" aria-current="page" href="index.html">Home</a>
 					</li>
-					<li class="nav-item">
-						<a class="nav-link p-3" href="about.html">About Us</a>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle p-3" href="#" role="button" data-bs-toggle="dropdown"
+							aria-expanded="false">
+							About Us
+						</a>
+						<ul class="dropdown-menu">
+							<li><a class="dropdown-item" href="history.html">History</a></li>
+							<li><a class="dropdown-item" href="#">Mission / Vision</a></li>
+							<!-- <li>
+								<hr class="dropdown-divider">
+							</li> -->
+							<li><a class="dropdown-item" href="#">Profile</a></li>
+							<li><a class="dropdown-item" href="#">Physical</a></li>
+							<li><a class="dropdown-item" href="#">Human Resources</a></li>
+							<li><a class="dropdown-item" href="#">Economic Sector</a></li>
+							<li><a class="dropdown-item" href="#">Social Services</a></li>
+							<li><a class="dropdown-item" href="#">Infrastructure</a></li>
+						</ul>
 					</li>
-					<li class="nav-itemr">
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle p-3" href="#" role="button" data-bs-toggle="dropdown"
+							aria-expanded="false">
+							Government
+						</a>
+						<ul class="dropdown-menu">
+							<li><a class="dropdown-item" href="#">Mayor</a></li>
+							<li><a class="dropdown-item" href="#">Vice Mayor</a></li>
+							<!-- <li>
+								<hr class="dropdown-divider">
+							</li> -->
+							<li><a class="dropdown-item" href="#">Councilor</a></li>
+							<li><a class="dropdown-item" href="#">Barangay</a></li>
+						</ul>
+					</li>
+					<!-- <li class="nav-itemr">
 						<a class="nav-link p-3" href="government.html">Government</a>
-					</li>
+					</li> -->
 					<li class="nav-item">
 						<a class="nav-link p-3" href="services.html">Services</a>
 					</li>
@@ -37,7 +69,7 @@
 						<a class="nav-link p-3" href="tourism.html">Tourism</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link active p-3" aria-current="page" href="gallery.html">Gallery</a>
+						<a class="nav-link p-3" href="gallery.html">Gallery</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link p-3" href="news.html">News</a>
