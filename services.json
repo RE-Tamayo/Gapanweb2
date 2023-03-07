@@ -83,5 +83,22 @@
                 "step": "Isasagawa ang inspection"
             }
         ]
+    },
+    {
+        "id": 5,
+        "title": "PAGKUHA NG FIRE SAFETY CLEARANCE PARA SA BUSINESS PERMIT",
+        "office": "MAGSADYA PO SA TANGGAPANG ITO : One Stop Shop",
+        "instruction": "",
+        "steps": [
+            {
+                "step": "Ipakita ang aplikasyon na galing sa Tanggapan ng Business Permit"
+            },
+            {
+                "step": "Kuhanin ang ibibigay na Temporary Clearance"
+            },
+            {
+                "step": "Isasagawa ang inspection"
+            }
+        ]
     }
 ]
