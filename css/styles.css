@@ -76,3 +76,17 @@
 	height: 2px;
 	margin-top: 10px;
 }
+
+.custom-active {
+	background-color: var(--tertiary);
+}
+
+@media only screen and (max-width: 780px) {
+	.bp-logo {
+		display: none;
+	}
+
+	.masthead {
+		margin: 10px auto 0px auto;
+	}
+}
